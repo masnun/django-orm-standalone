@@ -6,7 +6,7 @@ __Author__: masnun@gmail.com
 
 Requirements
 ------------
-This repository doesn't ship with a django installtion. The system must have an existing django installation so that we can safely import required modules. A django app is absolutely not required. Among other requirements is the db backend. If you're planning to use mysql or pgsql - please make sure you have all dependencies met. 
+This repository doesn't ship with a django installation. The system must have an existing django installation so that we can safely import required modules. A django app is absolutely not required. Among other requirements is the db backend. If you're planning to use mysql or pgsql - please make sure you have all dependencies met. 
 
 
 Application Structure
