@@ -11,11 +11,11 @@ This repository doesn't ship with a django installation. The system must have an
 
 Application Structure
 ----------------------
-__settings.py__ - The Django settings module. Contains the database configuration in it. Modify this file to match your database credentials.
-__manage.py__ - The famous manage.py script from django projects. 
-__main.py__ - This where we write codes. This is just a sample file to demonstrate how to import models. 
++ __settings.py__ - The Django settings module. Contains the database configuration in it. Modify this file to match your database credentials.
++ __manage.py__ - The famous manage.py script from django projects. 
++ __main.py__ - This where we write codes. This is just a sample file to demonstrate how to import models. 
 
-__data__ - The data directory works as a django application and contains the models.py which is where you put your models according to django conventions
++ __data__ - The data directory works as a django application and contains the models.py which is where you put your models according to django conventions
 
 
 How to use?
