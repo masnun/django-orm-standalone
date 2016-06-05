@@ -12,3 +12,5 @@ DATABASES = {
 INSTALLED_APPS = (
     'data',
     )
+
+SECRET_KEY = 'REPLACE_ME'
