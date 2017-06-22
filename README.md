@@ -10,7 +10,7 @@ This repository doesn't ship with a django installation. The system must have an
 existing django installation so that we can safely import required modules. A
 django app is absolutely not required. Among other requirements is the db
 backend. If you're planning to use mysql or pgsql - please make sure you have
-all dependencies met. This code works on Django 1.9.
+all dependencies met. This code works on Django 1.11.
 
 
 Application Structure
@@ -36,4 +36,4 @@ How to use?
 + Open "data/models.py". Modify existing model or add your own.
 + Run `python manage.py makemigrations` to make migration scripts
 + Run `python manage.py migrate` to create the tables and sync db changes. Feel free to use other manage.py commands available for django orm.
-+ Everytime you make changes to models or change db parameters, don't forget to run the migrations.
++ Every time you make changes to models or change db parameters, don't forget to run the migrations.
